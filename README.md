@@ -2,8 +2,8 @@
 
 Simple Java recursion practice. 
 
-[RecursionArray]("RecursionArray.java") 
+[RecursionArray]("/RecursionArray.java") 
 simply prints a 4 by 4 matrix of random numbers using recursion. 
 
-[RecursionMatrix]("RecursionMatrix.java") 
+[RecursiveMatrix]("/RecursionMatrix.java") 
 takes in a positive integer as input. That integer is used to specify the length - in asterisks - of the ajacent sides of two superimposed right triangles. The number of asterisks per line is decremented by one during each recursion, then incremented by one during the second for-loop. 
