@@ -1,7 +1,8 @@
 package labNotGraded;
 import java.util.*;
-public class Recursion {
+public class RecursiveMatrix {
 
+	// Prompts user to choose a number of stars to populate ajacent side of the triangle with
 	public static void main(String[] args) {
 		int stars = 0;
 		System.out.println("Enter number of stars: ");
@@ -11,6 +12,7 @@ public class Recursion {
 		recursionMethod(stars);
 	}
 	
+	// Builds triangles based on the number that make up the ajacent side
 	public static void recursionMethod(int n) {
 		if (n == 0) {
 			return;
